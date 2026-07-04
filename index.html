@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STEAMunity: Second Chances in Singapore</title>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+            <h1>STEAMunity: Second Chances</h1>
+            <div class="subtitle">Real Stories of Reintegration in Singapore</div>
+        </div>
+
+        <div class="stats-bar">
+            <div class="stat">
+                <div class="stat-label">Money</div>
+                <div class="stat-value money" id="money-stat">$50</div>
+                <div class="stat-progress">
+                    <div class="stat-progress-fill money" id="money-progress" style="width: 50%"></div>
+                </div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Happiness</div>
+                <div class="stat-value happiness" id="happiness-stat">50%</div>
+                <div class="stat-progress">
+                    <div class="stat-progress-fill happiness" id="happiness-progress" style="width: 50%"></div>
+                </div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Family Trust</div>
+                <div class="stat-value trust" id="family-stat">30%</div>
+                <div class="stat-progress">
+                    <div class="stat-progress-fill trust" id="family-progress" style="width: 30%"></div>
+                </div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Community Trust</div>
+                <div class="stat-value trust" id="community-stat">0%</div>
+                <div class="stat-progress">
+                    <div class="stat-progress-fill trust" id="community-progress" style="width: 0%"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content" id="game-content"></div>
+        
+        <!-- Achievement popup container -->
+        <div id="achievement-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
